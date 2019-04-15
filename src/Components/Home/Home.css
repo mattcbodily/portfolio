@@ -1,0 +1,231 @@
+.Hometopdiv {
+    height: 600px;
+    padding-top: 250px;
+    box-sizing: border-box;
+    background-image: url("./Pictures/Space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.Homename {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+    /* letter-spacing: 1px; */
+}
+
+.Homeprompt {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 8px;
+    color: white;
+}
+
+.Homeaboutdiv {
+    height: 390px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+}
+
+.Homeaboutflexbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+.Homeaboutprompt {
+    margin: 0px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Aboutmeparagraph {
+    height: 300px;
+    width: 425px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.Moreaboutmebuttondiv {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Moreaboutmebutton {
+    height: 30px;
+    width: 110px;
+    border: 3px solid #1A1A1A;
+    border-radius: 15px;
+    background-color: #ECECEC;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.Moreaboutmebutton:hover {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.Homepicture {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+}
+
+.Skillsdiv {
+    height: 515px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skillsflexbox {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Skillboxes {
+    height: 200px;
+    width: 180px;
+    padding-top: 20px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.Skillsprompts {
+    margin-top: 15px;
+    color: black;
+}
+
+.Homeprojectdiv {
+    height: 500px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+}
+
+.Homeprojectflexbox {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Projectlinkbox:link {
+    text-decoration: none;
+}
+
+/* .Projectlinkbox:visited {
+    text-decoration: none;
+} */
+
+.Projectboxone {
+    height: 245px;
+    width: 500px;
+    background-image: url("./Pictures/TeachioHome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    /* padding-top: 75px; */
+    transition: height 1s, width 1s;
+    /* border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray; */
+}
+
+.Projectboxone:hover {
+    height: 270px;
+    width: 525px;
+}
+
+.Projectboxtwo {
+    height: 245px;
+    width: 500px;
+    background-image: url("./Pictures/PearProgramming.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    transition: height 1s, width 1s;
+    /* border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px; */
+}
+
+.Projectboxtwo:hover {
+    height: 270px;
+    width: 525px;
+}
+
+.Projectboxdescription {
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 1s, width 1s;
+}
+
+.Projectboxdescription:hover {
+    color: white;
+    background-color: #1A1A1A;
+    opacity: .7;
+}
+
+.Projectdescriptionspan {
+    width: 250px;
+}
+
+.Homecontactdiv {
+    height: 400px;
+    width: 80%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.Homecontactflexbox {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Homecontactparagraph {
+    width: 350px;
+}
+
+.Homecontactlinks {
+    text-align: left;
+}
+
+.Sociallinks:link {
+    text-decoration: none;
+    color: black;
+}
+
+.Sociallinks:visited {
+    color: black;
+}
+
+.Linkdivs {
+    margin-bottom: 10px;
+}
+
+.Linkspans {
+    margin-left: 10px;
+}

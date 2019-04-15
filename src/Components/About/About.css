@@ -1,0 +1,24 @@
+.About {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.Aboutpageflexdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Aboutmequestions {
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Portfoliopicture {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url('./Pictures/Portfoliopicture.jpg');
+    background-position: top;
+}
