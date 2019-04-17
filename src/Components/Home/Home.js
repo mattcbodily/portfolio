@@ -34,7 +34,7 @@ const Home = () => {
                         <div className='Aboutmeparagraph'>
                             I am a former student going into web development.  I am detail oriented, hard working, and driven to succeed. 
                             I love the problem solving and daily learning that is involved in the web devlopment profession, and love an 
-                            environment where I can work with a team. Outside of code, I love watching sports, playing the drums visiting 
+                            environment where I can work with a team. Outside of code, I love watching sports, playing the drums, visiting 
                             the National Parks, and spending time with my family.
                             <div className='Moreaboutmebuttondiv'>
                                 <Link to='/About'><button className='Moreaboutmebutton'>More About Me</button></Link>

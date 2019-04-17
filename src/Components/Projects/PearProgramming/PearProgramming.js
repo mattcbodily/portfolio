@@ -1,14 +1,28 @@
-import React from 'react';
-// import PearProgrammingVideo from './../../../videos/PearProgramming.mp4';
+import React, { Component } from 'react';
+import './PearProgramming.css';
+import ProjectVideo from './PearProgramming.mp4'
 
-const PearProgramming = () => {
-    return (
-        <div>
-            {/* <video width="700" height="500" controls>
-                <source src={PearProgrammingVideo} type="video/mp4"/>
-            </video> */}
-        </div>
-    )
+class PearProgramming extends Component {
+    render(){
+        return (
+            <div className='Projectdiv'>
+                <div>
+                    <video className='Projectvideo' src={ProjectVideo} type="video/mp4" controls>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div className='Projectoverview'>
+                <p className='Projectpagename'>PearProgramming</p>
+                <p className='Projecttech'>React | Monaco | Socket.io | AWS S3 | Sass</p>
+                    Pear Programming is an online, collaborative code editor. Utilizing Monaco's code editor, 
+                    together with Socket.io, users are able to write and edit code together in real time. 
+                    PearProgramming is styled using Sass, and it also utilizes particles.js for added styling on select pages. 
+                    PearProgramming also uses AWS S3, paired with React Dropzone, to allow users the ability to 
+                    upload and store profile pictures
+                </div>
+            </div>
+        )
+    }
 }
 
 export default PearProgramming;

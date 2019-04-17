@@ -1,0 +1,31 @@
+.Projectdiv {
+    height: 80vh;
+    padding-top: 175px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Projectvideo {
+    height: 350px;
+}
+
+.Projectpagename {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Projecttech {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Projectoverview {
+    width: 40%;
+    /* text-align: left; */
+}
