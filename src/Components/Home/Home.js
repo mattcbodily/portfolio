@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Header from './../Header/Header';
 import portfolioPicture from './Pictures/Linkedinpicture.png';
 import javascript from './Pictures/javascript3.png';
 import react from './Pictures/react2.png';
@@ -21,12 +22,13 @@ import './Home.css';
 
 const Home = () => {
         return(
-            <div className='Home'>
+            <div className='Home' id='home'>
+                <Header />
                 <div className='Hometopdiv'>
                     <p className='Homename'>Matthew Bodily</p>
                     <p className='Homeprompt'>Full Stack Web Developer</p>
                 </div>
-                <div className='Homeaboutdiv'>
+                <div className='Homeaboutdiv' id='about'>
                     <p className='Homeaboutprompt'>About Me</p>
                     <div className='Homeaboutflexbox'>
                         <div className='Aboutmeparagraph'>
@@ -43,7 +45,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='Skillsdiv'>
+                <div className='Skillsdiv' id='skills'>
                     <p className='Homeaboutprompt'>Developer Skills</p>
                     <div className='Skillsflexbox'>
                         <div className='Skillboxes'>
@@ -88,7 +90,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='Homeprojectdiv'>
+                <div className='Homeprojectdiv' id='projects'>
                     <p className='Homeaboutprompt'>Projects</p>
                     <div className='Homeprojectflexbox'>
                         <Link to='/Teachio' className='Projectlinkbox'>
@@ -109,7 +111,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='Homecontactdiv'>
+                <div className='Homecontactdiv' id='contact'>
                     <p className='Homeaboutprompt'>Contact</p>
                     <div className='Homecontactflexbox'>
                         <div className='Homecontactparagraph'>

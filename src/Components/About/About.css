@@ -1,23 +1,39 @@
 .About {
     height: 100vh;
-    padding-top: 60px;
 }
 
-.Aboutpageflexdiv {
-    margin-top: 25px;
+.Aboutpageflexdiv1 {
+    margin: 0px 50px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Aboutpageflexdiv2 {
+    margin: 0px 50px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
 }
 
 .Aboutinfodivs {
-    width: 300px;
+    width: 475px;
+}
+
+.Picturedivs {
+    width: 475px;
 }
 
 .Aboutmequestions {
-    margin: 0px;
+    margin: 15px 0px;
     color: black;
     font-weight: bold;
     font-size: 14px;
+}
+
+.Questionanswers {
+    box-sizing: border-box;
 }
 
 .Portfoliopicture {
@@ -27,6 +43,7 @@
     background-image: url('./Pictures/Portfoliopicture.jpg');
     background-position: top;
     border: 1px solid #1a1a1a;
+    display: inline-block;
 }
 
 .Familypicture {
@@ -35,4 +52,5 @@
     border-radius: 50%;
     background-image: url('./Pictures/Family.png');
     border: 1px solid #1a1a1a;
+    display: inline-block;
 }
