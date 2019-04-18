@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './PearProgramming.css';
-import ProjectVideo from './PearProgramming.mp4'
+import ProjectVideo from './PearProgramming.mp4';
 
 class PearProgramming extends Component {
     render(){
         return (
             <div className='Projectdiv'>
                 <div>
-                    <video className='Projectvideo' src={ProjectVideo} type="video/mp4" controls>
-                        Your browser does not support the video tag.
+                    <video className='Projectvideo' controls>
+                        <source src={ProjectVideo} type='video/mp4'/>
                     </video>
                 </div>
                 <div className='Projectoverview'>

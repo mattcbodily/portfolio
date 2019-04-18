@@ -6,7 +6,8 @@ const Teachio = () => {
     return (
         <div className='Projectdiv'>
         <div>
-            <video className='Projectvideo' src={ProjectVideo} type="video/mp4" controls>
+            <video className='Projectvideo' controls>
+                <source  src={ProjectVideo} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>

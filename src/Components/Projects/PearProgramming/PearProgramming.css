@@ -1,14 +1,21 @@
 .Projectdiv {
-    height: 80vh;
-    padding-top: 175px;
-    padding-left: 35px;
-    padding-right: 35px;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 }
 
 .Projectvideo {
-    height: 350px;
+    height: 400px;
+}
+
+.Projectoverview {
+    width: 35%;
+    padding-top: 45px;
+    box-sizing: border-box;
 }
 
 .Projectpagename {
@@ -23,9 +30,4 @@
     margin: 10px 0px;
     font-weight: bold;
     font-size: 18px;
-}
-
-.Projectoverview {
-    width: 40%;
-    /* text-align: left; */
 }
