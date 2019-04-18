@@ -1,6 +1,6 @@
 .Hometopdiv {
-    height: 600px;
-    padding-top: 250px;
+    height: 100vh;
+    padding-top: 45vh;
     box-sizing: border-box;
     background-image: url("./Pictures/Space.jpg");
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 .Moreaboutmebutton {
     height: 30px;
     width: 110px;
-    border: 3px solid #1A1A1A;
+    border: 2px solid #1A1A1A;
     border-radius: 15px;
     background-color: #ECECEC;
     font-size: 11px;
@@ -126,11 +126,15 @@
 
 .Projectlinkbox:link {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
-/* .Projectlinkbox:visited {
+.Projectlinkbox:visited {
     text-decoration: none;
-} */
+    color: black;
+    font-weight: bold;
+}
 
 .Projectboxone {
     height: 245px;
@@ -192,7 +196,7 @@
 }
 
 .Homecontactdiv {
-    height: 400px;
+    height: 325px;
     width: 80%;
     padding-top: 10px;
     box-sizing: border-box;

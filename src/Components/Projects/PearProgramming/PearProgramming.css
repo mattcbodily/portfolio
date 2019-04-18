@@ -1,5 +1,5 @@
 .Projectdiv {
-    height: 100vh;
+    height: calc(100vh - 50px);
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;

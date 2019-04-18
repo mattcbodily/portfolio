@@ -11,8 +11,6 @@ import postgres from './Pictures/postgres.png';
 import sockets from './Pictures/socketio.png';
 import sass from './Pictures/sass.png';
 import express from './Pictures/expressjslogo.png';
-// import teachio from './Pictures/TeachioHome.png';
-// import pearprogramming from './Pictures/PearProgramming.png';
 import phone from './Pictures/phoneicon.png';
 import gmail from './Pictures/gmailicon.png';
 import linkedin from './Pictures/linkedin.png';
@@ -115,11 +113,8 @@ const Home = () => {
                     <p className='Homeaboutprompt'>Contact</p>
                     <div className='Homecontactflexbox'>
                         <div className='Homecontactparagraph'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod eget libero non dapibus. 
-                            Cras pharetra, augue ac efficitur porttitor, diam augue elementum arcu, eget egestas felis mauris 
-                            vel nisl. Maecenas tellus justo, suscipit eget aliquam vel, ullamcorper sed turpis. Fusce convallis 
-                            tincidunt ultricies. Aenean consequat elit a ipsum lobortis malesuada. Aenean ipsum nulla, dignissim sed 
-                            erat pretium, semper sodales massa.
+                            I would love to work with you! If you have any questions that weren't answered here, 
+                            or if you would like to reach out to me, please check out the links provided.
                         </div>
                         <div className='Homecontactlinks'>
                             <div className='Linkdivs'>

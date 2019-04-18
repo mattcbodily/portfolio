@@ -4,8 +4,13 @@
 }
 
 .Aboutpageflexdiv {
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
+}
+
+.Aboutinfodivs {
+    width: 300px;
 }
 
 .Aboutmequestions {
@@ -21,4 +26,13 @@
     border-radius: 50%;
     background-image: url('./Pictures/Portfoliopicture.jpg');
     background-position: top;
+    border: 1px solid #1a1a1a;
+}
+
+.Familypicture {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url('./Pictures/Family.png');
+    border: 1px solid #1a1a1a;
 }
