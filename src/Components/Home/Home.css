@@ -259,3 +259,31 @@
         width: 450px;
     }
 }
+
+@media(max-width: 900px){
+    .Skillsflexbox {
+        width: 85%;
+    }
+    .Homeprojectdiv {
+        height: 700px;
+    }
+    .Homeprojectflexbox {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Projectlinkbox:link {
+        margin-bottom: 10px;
+    }
+    .Projectboxone {
+        height: 250px;
+        width: 500px;
+    }
+    .Projectboxtwo {
+        height: 250px;
+        width: 500px;
+    }
+    .Homecontactdiv {
+        width: 85%;
+    }
+}
