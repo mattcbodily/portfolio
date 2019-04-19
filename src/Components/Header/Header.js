@@ -9,10 +9,10 @@ const Header = () => {
             <Link to='/' className='Webdeveloperlink'><span className='Headername'>Matthew Bodily | Web Developer</span></Link>
             <div className='Headerlinkbox'>
                 <AnchorLink href='#home' className='Headerlink'>Home</AnchorLink>
-                <AnchorLink offset='40' href='#about' className='Headerlink'>About</AnchorLink>
-                <AnchorLink offset='40' href='#skills' className='Headerlink'>Skills</AnchorLink>
-                <AnchorLink offset='40' href='#projects' className='Headerlink'>Projects</AnchorLink>
-                <AnchorLink offset='40' href='#contact' className='Headerlink'>Contact</AnchorLink>
+                <AnchorLink offset='50' href='#about' className='Headerlink'>About</AnchorLink>
+                <AnchorLink offset='50' href='#skills' className='Headerlink'>Skills</AnchorLink>
+                <AnchorLink offset='50' href='#projects' className='Headerlink'>Projects</AnchorLink>
+                <AnchorLink offset='50' href='#contact' className='Headerlink'>Contact</AnchorLink>
             </div>
         </div>
     )
