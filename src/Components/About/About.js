@@ -15,9 +15,9 @@ class About extends Component {
                         <p className='Aboutmequestions'>Why Coding/Web Development?</p>
                         <div className='Questionanswers'>
                             There are a lot of things to like about coding, but I especially love the problem solving involved with it.  Web 
-                            Development provides the opportunity for daily growth and learning.  I get a lot of satisfaction from being able to 
+                            development provides the opportunity for daily growth and learning.  I get a lot of satisfaction from being able to 
                             find solutions to problems in code, and am always striving to grow my skills so that I can be the best developer that 
-                            I can be.  To go along with all of this, I enjoy programming on a team.  The team environment in Web Development is very 
+                            I can be.  To go along with all of this, I enjoy programming on a team.  The team environment in web development is very 
                             unique, and highly fulfilling.
                         </div>
                     </div>
@@ -33,8 +33,8 @@ class About extends Component {
                         <p className='Aboutmequestions'>What do I like to do outside of code?</p>
                         <div className='Questionanswers'>
                             Outside of code, I enjoy spending time with my family.  My wife, daughter, dog, and I love to go visit the National 
-                            Parks(We are up to 15 visited so far!), and have a goal to visit all the parks in our lifetime.  Music is also a hobby of mine.  During my time at Utah Valley University, I was a member 
-                            of the Green Man Group Drumline, as well as being the drum captain for the Utah Jazz drumline. I am avid sports fan, and 
+                            Parks(We are up to 15 visited so far!), and have a goal to visit all the parks during our lifetime.  Music is also a hobby of mine.  During my time at Utah Valley University, I was a member 
+                            of the Green Man Group Drumline, as well as being the drum captain for the Utah Jazz drumline. I am an avid sports fan, and 
                             love to cheer on the Utah Jazz and Philadelphia Eagles.
                         </div>
                     </div>
