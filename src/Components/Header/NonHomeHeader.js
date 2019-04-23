@@ -7,7 +7,7 @@ const NonHomeHeader = () => {
         <div className='Header'>
             <Link to='/' className='Webdeveloperlink'><span className='Headername'>Matthew Bodily | Web Developer</span></Link>
             <div className='Nonhomeheaderlinkbox'>
-                <Link to='/' className='Nonhomeheaderlink'>Back to Home</Link>
+                <Link to='/' className='Nonhomeheaderlink'>Back Home</Link>
             </div>
         </div>
     )

@@ -14,7 +14,11 @@ class About extends Component {
                     <div className='Aboutinfodivs'>
                         <p className='Aboutmequestions'>Why Coding/Web Development?</p>
                         <div className='Questionanswers'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            There are a lot of things to like about coding, but I especially love the problem solving involved with it.  Web 
+                            Development provides the opportunity for daily growth and learning.  I get a lot of satisfaction from being able to 
+                            find solutions to problems in code, and am always striving to grow my skills so that I can be the best developer that 
+                            I can be.  To go along with all of this, I enjoy programming on a team.  The team environment in Web Development is very 
+                            unique, and highly fulfilling.
                         </div>
                     </div>
                     <div className='Picturedivs'>
@@ -28,7 +32,10 @@ class About extends Component {
                     <div className='Aboutinfodivs'>
                         <p className='Aboutmequestions'>What do I like to do outside of code?</p>
                         <div className='Questionanswers'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Outside of code, I enjoy spending time with my family.  My wife, daughter, dog, and I love to go visit the National 
+                            Parks(We are up to 15 visited so far!), and have a goal to visit all the parks in our lifetime.  Music is also a hobby of mine.  During my time at Utah Valley University, I was a member 
+                            of the Green Man Group Drumline, as well as being the drum captain for the Utah Jazz drumline. I am avid sports fan, and 
+                            love to cheer on the Utah Jazz and Philadelphia Eagles.
                         </div>
                     </div>
                 </div>

@@ -5,3 +5,9 @@
     background-color: #1A1A1A;
     color: white;
 }
+
+@media(max-width: 500px){
+    .Footer {
+        font-size: 15px;
+    }
+}

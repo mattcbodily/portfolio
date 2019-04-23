@@ -5,8 +5,9 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    background-color: #1A1A1A; /*#292929*/
+    background-color: #1A1A1A;
     position: fixed;
+    z-index: 4;
 }
 
 .Webdeveloperlink:link {
@@ -57,4 +58,135 @@
 .Headerlink:focus {
     color: #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
+}
+
+.Bars {
+    font-size: 20px;
+    margin-top: 2px;
+    color: white;
+    display: none;
+    animation: rotate .5s;
+}
+
+.Dropdownmenu {
+    height: 220px;
+    width: 100%;
+    position: fixed;
+    top: 45px;
+    z-index: 3;
+    padding-top: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    animation: slidedown .5s;
+    overflow: hidden; 
+}
+
+.Topdropdownlink:link {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.Topdropdownlink:visited {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 20px;
+    border-top: 1px solid white;
+}
+
+.Dropdownlink:link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 20px;
+    border-top: 1px solid white;
+}
+
+.Dropdownlink:visited {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 20px;
+    border-top: 1px solid white;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes slidedown {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 220px;
+    }
+}
+
+@media(max-width: 775px) {
+    .Headername {
+        font-size: 17px;
+    }
+    .Headerlink {
+        font-size: 17px;
+    }
+    .Headerlinkbox {
+        width: 300px;
+    }
+    .Nonhomeheaderlinkbox{
+        width: 150px;
+        margin-right: 15px;
+    }
+}
+
+@media(max-width: 650px){
+    .Headerlink {
+        display: none;
+    }
+    .Headerlinkbox {
+        width: 25px;
+    }
+    .Bars {
+        margin-top: 3px;
+        display: block;
+    }
+}
+
+@media(max-width: 500px) {
+    .Header {
+        height: 45px;
+        padding-top: 12px;
+    }
+    .Webdeveloperlink:link {
+        width: 235px;
+    }
+    .Webdeveloperlink:visited {
+        width: 235px;
+    }
+    .Headername {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 0px;
+        
+    }
+    .Headerlinkbox {
+        margin-right: 2px;                
+    }
+    .Bars {
+        font-size: 16px;
+    }
+    .Nonhomeheaderlinkbox {
+        width: 80px;
+    }
+    .Nonhomeheaderlink {
+        font-size: 14px;
+    }
 }

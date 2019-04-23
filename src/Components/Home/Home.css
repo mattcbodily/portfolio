@@ -2,16 +2,26 @@
     height: 100vh;
     padding-top: 45vh;
     box-sizing: border-box;
-    background-image: url("./Pictures/Space.jpg");
+    background-image: url("./Pictures/astronomy-cosmos-crater-lake-national-park-262669.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: black;
+}
+
+.Namebackground {
+    height: 115px;
+    width: 350px;
+    background-color: #1A1A1A;
+    opacity: .8;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 .Homename {
     font-size: 35px;
     font-weight: bold;
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
     color: white;
 }
 
@@ -23,7 +33,7 @@
 }
 
 .Homeaboutdiv {
-    height: 390px;
+    height: 485px;
     width: 100%;
     padding-top: 10px;
     box-sizing: border-box;
@@ -36,9 +46,9 @@
 }
 
 .Homeaboutflexbox {
-    width: 1400px;
+    width: 1100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0px 75px;
 }
 
@@ -53,9 +63,23 @@
 
 .Aboutmeparagraph {
     height: 300px;
-    width: 425px;
-    margin-top: 60px;
+    width: 400px;
+    margin-top: 10px;
     text-align: left;
+}
+
+.Educationprompt {
+    margin: 20px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.Education {
+    margin: 8px 0px 0px 0px;
+}
+
+.Educationinfo {
+    margin: 2px 0px;
+    font-style: italic;
 }
 
 .Moreaboutmebuttondiv {
@@ -79,8 +103,8 @@
 }
 
 .Homepicture {
-    height: 275px;
-    width: 275px;
+    height: 365px;
+    width: 365px;
     border-radius: 50%;
     border: 1px solid #DEDEDE;
 }
@@ -124,8 +148,16 @@
     background-color: #ECECEC;
 }
 
+.Homeprojectpositionbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .Homeprojectflexbox {
+    width: 1200px;
     margin-top: 25px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
 }
@@ -202,10 +234,18 @@
     display: inline-block;
 }
 
+.Homecontactpositionbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .Homecontactflexbox {
+    width: 1100px;
     margin-top: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .Homecontactparagraph {
@@ -234,10 +274,6 @@
 }
 
 @media(max-width: 1100px){
-    .Hometopdiv {
-        height: 1000px;
-        padding-top: 35vh;
-    }
     .Skillsdiv {
         height: 950px;
     }
@@ -265,7 +301,7 @@
         width: 85%;
     }
     .Homeprojectdiv {
-        height: 700px;
+        height: 750px;
     }
     .Homeprojectflexbox {
         margin-top: 0px;
@@ -273,7 +309,7 @@
         align-items: center;
     }
     .Projectlinkbox:link {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .Projectboxone {
         height: 250px;
@@ -284,6 +320,164 @@
         width: 500px;
     }
     .Homecontactdiv {
-        width: 85%;
+        width: 95%;
+    }
+}
+
+@media(max-width: 800px){
+    .Homeaboutdiv {
+        height: 490px;
+    }
+    .Aboutmeparagraph {
+        height: 300px;
+        width: 350px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    .Homepicture {
+        height: 335px;
+        width: 335px;
+        margin-top: 10px;
+    }
+    .Skillsflexbox {
+        width: 95%;
+    }
+    .Homecontactdiv {
+        height: 450px;
+        width: 95%;
+    }
+    .Homecontactflexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Homecontactlinks {
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 700px){
+    .Homeaboutdiv {
+        height: 675px;
+    }
+    .Homeaboutflexbox {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Aboutmeparagraph {
+        width: 420px;
+        text-align: center;
+    }
+    .Homepicture {
+        height: 200px;
+        width: 200px;
+        margin: 0px;
+    }
+    .Education {
+        margin-top: 15px;
+    }
+    .Skillsdiv {
+        height: 725px;
+    }
+    .Skillsflexbox {
+        width: 95%;
+    }
+    .Skillboxes {
+        height: 150px;
+        width: 135px;
+        padding-top: 10px;
+        margin: 5px 10px;
+    }
+    .Skillpictures {
+        height: 95px;
+        width: 95px;
+    }
+    .Skillsprompts {
+        margin: 5px 0px;
+    }
+    .Homeprojectdiv {
+        height: 575px;
+    }
+    .Projectboxone {
+        height: 175px;
+        width: 350px;
+    }
+    .Projectboxone:hover {
+        height: 190px;
+        width: 360px;
+    }
+    .Projectboxtwo {
+        height: 175px;
+        width: 350px;
+    }
+    .Projectboxtwo:hover {
+        height: 190px;
+        width: 360px;
+    }
+}
+
+@media(max-width: 500px){
+    .Hometopdiv {
+        background-position: 50% 50%;
+    }
+    .Namebackground {
+        height: 100px;
+        width: 280px;
+    }
+    .Homename {
+        font-size: 28px;
+    }
+    .Homeprompt {
+        font-size: 20px;
+    }
+    .Homeaboutdiv {
+        height: 100%
+    }
+    .Aboutmeparagraph {
+        height: 100%;
+        width: 120%;
+        margin-bottom: 15px;
+    }
+    .Skillsdiv {
+        height: 100%;
+    }
+    .Skillboxes {
+        height: 100px;
+        width: 90px;
+        padding-top: 5px;
+        margin: 7px 5px;
+    }
+    .Skillpictures {
+        height: 60px;
+        width: 60px;
+    }
+    .Skillsprompts {
+        margin: 2px 0px;
+        font-size: 15px;
+    }
+    .Projectboxone {
+        height: 140px;
+        width: 280px;
+    }
+    .Projectboxone:hover {
+        height: 150px;
+        width: 290px;
+    }
+    .Projectboxtwo {
+        height: 140px;
+        width: 280px;
+    }
+    .Projectboxone:hover {
+        height: 150px;
+        width: 290px;
+    }
+    .Homecontactdiv {
+        height: 400px;
+    }
+    .Homecontactparagraph {
+        width: 300px;
+        font-size: 14px;
+    }
+    .Homecontactlinks {
+        font-size: 14px;
     }
 }
