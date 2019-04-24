@@ -28,6 +28,7 @@ class Header extends Component {
                 {!this.state.showDropdown
                 ? (<div className='Header'>
                     <Link to='/' className='Webdeveloperlink'><span className='Headername'>Matthew Bodily | Web Developer</span></Link>
+                    <Link to='/' className='Webdeveloperlinkmobile'><span className='Headername'>M/B | Web Developer</span></Link>
                     <div className='Headerlinkbox'>
                         <AnchorLink href='#home' className='Headerlink'>Home</AnchorLink>
                         <AnchorLink offset='50' href='#about' className='Headerlink'>About</AnchorLink>
@@ -40,6 +41,7 @@ class Header extends Component {
                 : (<div>
                     <div className='Header'>
                         <Link to='/' className='Webdeveloperlink'><span className='Headername'>Matthew Bodily | Web Developer</span></Link>
+                        <Link to='/' className='Webdeveloperlinkmobile'><span className='Headername'>M/B | Web Developer</span></Link>
                         <div className='Headerlinkbox'>
                             <AnchorLink href='#home' className='Headerlink'>Home</AnchorLink>
                             <AnchorLink offset='50' href='#about' className='Headerlink'>About</AnchorLink>

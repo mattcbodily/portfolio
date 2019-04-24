@@ -24,6 +24,16 @@
     margin-left: 15px;
 }
 
+.Webdeveloperlinkmobile:link {
+    text-decoration: none;
+    display: none;
+}
+
+.Webdeveloperlinkmobile:visited {
+    text-decoration: none;
+    display: none;
+}
+
 .Headerlinkbox {
     width: 375px;
     margin-right: 15px;
@@ -167,9 +177,21 @@
     }
     .Webdeveloperlink:link {
         width: 235px;
+        display: none;
     }
     .Webdeveloperlink:visited {
         width: 235px;
+        display: none;
+    }
+    .Webdeveloperlinkmobile:link {
+        width: 150px;
+        margin-left: 2px;
+        display: block;
+    }
+    .Webdeveloperlink:visited {
+        width: 150px;
+        margin-left: 2px;
+        display: block;
     }
     .Headername {
         font-size: 14px;

@@ -10,7 +10,7 @@
 }
 
 .Namebackground {
-    height: 115px;
+    height: 120px;
     width: 350px;
     background-color: #1A1A1A;
     opacity: .8;
@@ -19,14 +19,14 @@
 }
 
 .Homename {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bold;
     margin: 10px 0px 0px 0px;
     color: white;
 }
 
 .Homeprompt {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     margin: 8px;
     color: white;
