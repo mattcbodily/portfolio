@@ -62,8 +62,10 @@
 @media(max-width: 450px){
     .Projectvideo {
         height: 175px;
+        margin-bottom: 15px;
     }
     .Projectoverview {
         width: 90%;
+        padding-top: 20px;
     }
 }

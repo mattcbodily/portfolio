@@ -78,7 +78,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #1A1A1A;
     animation: slidedown .5s;
     overflow: hidden; 
 }
