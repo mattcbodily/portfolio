@@ -184,12 +184,13 @@
         display: none;
     }
     .Webdeveloperlinkmobile:link {
-        width: 150px;
-        margin-left: 2px;
+        width: 170px;
+        margin-left: 10px;
         display: block;
+        text-align: left;
     }
     .Webdeveloperlink:visited {
-        width: 150px;
+        width: 170px;
         margin-left: 2px;
         display: block;
     }
