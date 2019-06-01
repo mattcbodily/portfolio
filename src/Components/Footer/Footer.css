@@ -1,9 +1,11 @@
 .Footer {
     height: 50px;
+    width: 100%;
     box-sizing: border-box;
     padding-top: 12px;
     background-color: #1A1A1A;
     color: white;
+    text-align: center;
 }
 
 @media(max-width: 500px){

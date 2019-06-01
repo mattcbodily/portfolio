@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Header from './../Header/Header';
+import Footer from './../Footer/Footer';
 import portfolioPicture from './Pictures/Linkedinpicture.png';
 import javascript from './Pictures/javascript3.png';
 import react from './Pictures/react2.png';
@@ -12,6 +13,8 @@ import postgres from './Pictures/postgres.png';
 import sockets from './Pictures/socketio.png';
 import sass from './Pictures/sass.png';
 import express from './Pictures/expressjslogo.png';
+import bootstrap from './Pictures/bootstrap_icon.png';
+import stripe from './Pictures/stripe_icon.png';
 import phone from './Pictures/phoneicon.png';
 import gmail from './Pictures/gmailicon.png';
 import linkedin from './Pictures/linkedin.png';
@@ -79,6 +82,10 @@ const Home = () => {
                             <p className='Skillsprompts'>CSS</p>
                         </div>
                         <div className='Skillboxes'>
+                            <img src={bootstrap} alt='Bootstrap Icon' className='Skillpictures'></img>
+                            <p className='Skillsprompts'>Bootstrap</p>
+                        </div>
+                        <div className='Skillboxes'>
                             <img src={sass} alt='SASS Icon' className='Skillpictures'></img>
                             <p className='Skillsprompts'>Sass</p>
                         </div>
@@ -98,10 +105,15 @@ const Home = () => {
                             <img src={sockets} alt='Socket Icon' className='Skillpictures'></img>
                             <p className='Skillsprompts'>Socket.io</p>
                         </div>
+                        <div className='Skillboxes'>
+                            <img src={stripe} alt='Stripe Icon' className='Skillpictures'></img>
+                            <p className='Skillsprompts'>Stripe</p>
+                        </div>
                     </div>
                 </div>
                 <div className='Homeprojectdiv' id='projects'>
                     <p className='Homeaboutprompt'>Projects</p>
+                    <h7>(Hover or click to learn more)</h7>
                     <div className='Homeprojectpositionbox'>
                         <div className='Homeprojectflexbox'>
                             <Link to='/Teachio' className='Projectlinkbox'>
@@ -112,9 +124,17 @@ const Home = () => {
                                     </div>
                                 </div>
                             </Link>
+                            <Link to='/odnt-longboards' className='Projectlinkbox'>
+                                <p>O.D.N.T. Longboards</p>
+                                <div className='Projectboxtwo'>
+                                    <div className='Projectboxdescription'>
+                                        <div className='Projectdescriptionspan'>Old Dog New Trick Longboards is a longboard e-commerce shop. Click to learn more.</div>
+                                    </div>
+                                </div>
+                            </Link>
                             <Link to='/PearProgramming' className='Projectlinkbox'>
                                 <p>PearProgramming</p>
-                                <div className='Projectboxtwo'>
+                                <div className='Projectboxthree'>
                                     <div className='Projectboxdescription'>
                                         <div className='Projectdescriptionspan'>PearProgramming is an Online, Collaborative Code Editor App. Click to learn more.</div>
                                     </div>
@@ -154,6 +174,7 @@ const Home = () => {
                         </div>
                     </div>    
                 </div>
+                <Footer />
             </div>
         )
 }

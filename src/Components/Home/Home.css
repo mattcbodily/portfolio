@@ -110,7 +110,7 @@
 }
 
 .Skillsdiv {
-    height: 515px;
+    min-height: 515px;
     padding-top: 10px;
     box-sizing: border-box;
     display: flex;
@@ -119,7 +119,7 @@
 }
 
 .Skillsflexbox {
-    max-width: 1250px;
+    max-width: 1350px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@
 }
 
 .Homeprojectdiv {
-    height: 500px;
+    min-height: 500px;
     padding-top: 10px;
     box-sizing: border-box;
     background-color: #ECECEC;
@@ -160,6 +160,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .Projectlinkbox:link {
@@ -175,35 +176,55 @@
 }
 
 .Projectboxone {
-    height: 245px;
-    width: 500px;
+    height: 235px;
+    width: 450px;
     background-image: url("./Pictures/TeachioHome.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     transition: height 1s, width 1s;
+    margin-bottom: 15px;
 }
 
 .Projectboxone:hover {
-    height: 270px;
-    width: 525px;
+    height: 250px;
+    width: 490px;
 }
 
 .Projectboxtwo {
-    height: 245px;
-    width: 500px;
+    height: 235px;
+    width: 450px;
+    margin: 0px 10px;
+    background-image: url("./Pictures/odntlongboards.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    transition: height 1s, width 1s;
+    margin-bottom: 15px;
+}
+
+.Projectboxtwo:hover {
+    height: 250px;
+    width: 490px;
+}
+
+.Projectboxthree {
+    height: 235px;
+    width: 450px;
     background-image: url("./Pictures/PearProgramming.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     transition: height 1s, width 1s;
+    margin-bottom: 15px;
 }
 
-.Projectboxtwo:hover {
-    height: 270px;
-    width: 525px;
+.Projectboxthree:hover {
+    height: 250px;
+    width: 490px;
 }
 
 .Projectboxdescription {
@@ -281,7 +302,7 @@
         width: 875px;
     }
     .Homeprojectdiv {
-        height: 375px;
+        min-height: 375px;
     }
     .Homeprojectflexbox {
         margin-top: 10px;
@@ -301,9 +322,10 @@
         width: 85%;
     }
     .Homeprojectdiv {
-        height: 750px;
+        min-height: 750px;
     }
     .Homeprojectflexbox {
+        min-height: 750px;
         margin-top: 0px;
         flex-direction: column;
         align-items: center;
@@ -395,7 +417,7 @@
         margin: 5px 0px;
     }
     .Homeprojectdiv {
-        height: 575px;
+        min-height: 575px;
     }
     .Projectboxone {
         height: 175px;
@@ -410,6 +432,16 @@
         width: 350px;
     }
     .Projectboxtwo:hover {
+        height: 190px;
+        width: 360px;
+    }
+
+    .Projectboxthree {
+        height: 175px;
+        width: 350px;
+    }
+
+    .Projectboxthree:hover {
         height: 190px;
         width: 360px;
     }
@@ -466,7 +498,15 @@
         height: 140px;
         width: 280px;
     }
-    .Projectboxone:hover {
+    .Projectboxtwo:hover {
+        height: 150px;
+        width: 290px;
+    }
+    .Projectboxthree {
+        height: 140px;
+        width: 280px;
+    }
+    .Projectboxthree:hover {
         height: 150px;
         width: 290px;
     }

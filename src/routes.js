@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Teachio from './Components/Projects/Teachio/Teachio';
 import PearProgramming from './Components/Projects/PearProgramming/PearProgramming';
+import LongboardShop from './Components/Projects/LongboardShop/LongboardShop';
 
 export default(
     <Switch>
@@ -11,5 +12,6 @@ export default(
         <Route path='/About' component={About}/>
         <Route path='/Teachio' component={Teachio}/>
         <Route path='/PearProgramming' component={PearProgramming}/>
+        <Route path='/odnt-longboards' component={LongboardShop}/>
     </Switch>
 )
