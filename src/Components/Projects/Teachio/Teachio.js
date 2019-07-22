@@ -11,7 +11,7 @@ const Teachio = () => {
             <div className='Projectcontentdiv'>
                 <div>
                     <video className='Projectvideo' controls>
-                        <source  src={ProjectVideo} type="video/mp4" />
+                        <source  src={ProjectVideo} type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
