@@ -14,7 +14,9 @@ import sockets from './Pictures/socketio.png';
 import sass from './Pictures/sass.png';
 import express from './Pictures/expressjslogo.png';
 import bootstrap from './Pictures/bootstrap_icon.png';
+import styledcomponents from './Pictures/styled-components.png';
 import stripe from './Pictures/stripe_icon.png';
+import chartjs from './Pictures/chartjs.png';
 import phone from './Pictures/phoneicon.png';
 import gmail from './Pictures/gmailicon.png';
 import linkedin from './Pictures/linkedin.png';
@@ -86,6 +88,10 @@ const Home = () => {
                             <p className='Skillsprompts'>Bootstrap</p>
                         </div>
                         <div className='Skillboxes'>
+                            <img src={styledcomponents} alt='Styled-Components Icon' className='Skillpictures'></img>
+                            <p className='Skillsprompts'>Styled Components</p>
+                        </div>
+                        <div className='Skillboxes'>
                             <img src={sass} alt='SASS Icon' className='Skillpictures'></img>
                             <p className='Skillsprompts'>Sass</p>
                         </div>
@@ -108,6 +114,10 @@ const Home = () => {
                         <div className='Skillboxes'>
                             <img src={stripe} alt='Stripe Icon' className='Skillpictures'></img>
                             <p className='Skillsprompts'>Stripe</p>
+                        </div>
+                        <div className='Skillboxes'>
+                            <img src={chartjs} alt='Chart.js Icon' className='Skillpictures'></img>
+                            <p className='Skillsprompts'>Chart.js</p>
                         </div>
                     </div>
                 </div>
