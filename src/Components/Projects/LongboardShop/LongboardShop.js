@@ -16,7 +16,7 @@ const LongboardShop = () => {
                     </video>
                 </div>
                 <div className='Projectoverview'>
-                    <p className='Projectpagename'>O.D.N.T. Longboards</p>
+                    <h2 className='Projectpagename'>O.D.N.T. Longboards</h2>
                     <p className='Projecttech'>React | Redux | Bootstrap | Stripe | AWS S3</p>
                     <p>Old Dog New Trick longboards is an E-commerce longboard shop designed for Aaron Kahle. 
                     This application is built with a React front-end, and also uses Redux for state management. 

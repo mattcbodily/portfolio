@@ -24,7 +24,7 @@ class Header extends Component {
 
     render(){
         return (
-            <div>
+            <header>
                 {!this.state.showDropdown
                 ? (<div className='Header'>
                     <Link to='/' className='Webdeveloperlink'><span className='Headername'>Matthew Bodily | Web Developer</span></Link>
@@ -61,7 +61,7 @@ class Header extends Component {
                 </div>
                 )
                 }
-            </div>
+            </header>
         )
     }
 }

@@ -29,8 +29,8 @@ const Home = () => {
                 <Header />
                 <div className='Hometopdiv'>
                     <div className='Namebackground'>
-                        <p className='Homename'>Matthew Bodily</p>
-                        <p className='Homeprompt'>Full Stack Web Developer</p>
+                        <h2 className='Homename'>Matthew Bodily</h2>
+                        <h4 className='Homeprompt'>Full Stack Web Developer</h4>
                     </div>
                 </div>
                 <div className='Homeaboutdiv' id='about'>
