@@ -89,7 +89,7 @@ const Home = () => {
                         </div>
                         <div className='Skillboxes'>
                             <img src={styledcomponents} alt='Styled-Components Icon' className='Skillpictures'></img>
-                            <p className='Skillsprompts'>Styled Components</p>
+                            <p id='styled-components-icon'>Styled Components</p>
                         </div>
                         <div className='Skillboxes'>
                             <img src={sass} alt='SASS Icon' className='Skillpictures'></img>
@@ -123,7 +123,7 @@ const Home = () => {
                 </div>
                 <div className='Homeprojectdiv' id='projects'>
                     <p className='Homeaboutprompt'>Projects</p>
-                    <h7>(Hover or click to learn more)</h7>
+                    <h6>(Hover or click to learn more)</h6>
                     <div className='Homeprojectpositionbox'>
                         <div className='Homeprojectflexbox'>
                             <Link to='/Teachio' className='Projectlinkbox'>

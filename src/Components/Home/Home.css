@@ -121,7 +121,7 @@
 .Skillsflexbox {
     max-width: 1350px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -139,6 +139,10 @@
 .Skillsprompts {
     margin-top: 15px;
     color: black;
+}
+
+#styled-components-icon{
+    margin-top: 15px;
 }
 
 .Homeprojectdiv {
@@ -296,7 +300,7 @@
 
 @media(max-width: 1100px){
     .Skillsdiv {
-        height: 950px;
+        height: auto;
     }
     .Skillsflexbox {
         width: 875px;
@@ -397,9 +401,6 @@
     .Education {
         margin-top: 15px;
     }
-    .Skillsdiv {
-        height: 725px;
-    }
     .Skillsflexbox {
         width: 95%;
     }
@@ -410,11 +411,16 @@
         margin: 5px 10px;
     }
     .Skillpictures {
-        height: 95px;
-        width: 95px;
+        height: 90px;
+        width: 90px;
     }
     .Skillsprompts {
-        margin: 5px 0px;
+        margin: 7px 0px;
+        font-size: 15px;
+    }
+    #styled-components-icon{
+        margin: 0px 0px;
+        font-size: 15px;
     }
     .Homeprojectdiv {
         min-height: 575px;
@@ -469,21 +475,19 @@
         width: 120%;
         margin-bottom: 15px;
     }
-    .Skillsdiv {
-        height: 100%;
-    }
     .Skillboxes {
-        height: 100px;
-        width: 90px;
+        height: 120px;
+        width: 120px;
         padding-top: 5px;
         margin: 7px 5px;
     }
     .Skillpictures {
         height: 60px;
         width: 60px;
+        margin-top: 3px;
     }
     .Skillsprompts {
-        margin: 2px 0px;
+        margin: 8px 0px;
         font-size: 15px;
     }
     .Projectboxone {
