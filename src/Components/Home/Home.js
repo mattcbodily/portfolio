@@ -150,6 +150,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </Link>
+                            <Link to='/PiggyBank' className='Projectlinkbox'>
+                                <p>PiggyBank</p>
+                                <div className='Projectboxfour'>
+                                    <div className='Projectboxdescription'>
+                                        <div className='Projectdescriptionspan'>PiggyBank is a budgeting app that allows users to set a budget, track expenses, and view expense trends. Click to learn more.</div>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

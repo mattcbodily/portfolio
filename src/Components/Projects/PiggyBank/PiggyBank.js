@@ -32,3 +32,5 @@ const PiggyBank = () => {
         </div>
     )
 }
+
+export default PiggyBank;

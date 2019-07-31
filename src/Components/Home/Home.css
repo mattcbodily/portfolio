@@ -191,11 +191,6 @@
     margin-bottom: 15px;
 }
 
-.Projectboxone:hover {
-    height: 250px;
-    width: 490px;
-}
-
 .Projectboxtwo {
     height: 235px;
     width: 450px;
@@ -209,14 +204,10 @@
     margin-bottom: 15px;
 }
 
-.Projectboxtwo:hover {
-    height: 250px;
-    width: 490px;
-}
-
 .Projectboxthree {
     height: 235px;
     width: 450px;
+    margin: 0px 10px;
     background-image: url("./Pictures/PearProgramming.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,9 +217,17 @@
     margin-bottom: 15px;
 }
 
-.Projectboxthree:hover {
-    height: 250px;
-    width: 490px;
+.Projectboxfour {
+    height: 235px;
+    width: 450px;
+    margin: 0px 10px;
+    background-image: url("./Pictures/piggy_bank.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    transition: height 1s, width 1s;
+    margin-bottom: 15px;
 }
 
 .Projectboxdescription {
@@ -429,27 +428,17 @@
         height: 175px;
         width: 350px;
     }
-    .Projectboxone:hover {
-        height: 190px;
-        width: 360px;
-    }
     .Projectboxtwo {
         height: 175px;
         width: 350px;
     }
-    .Projectboxtwo:hover {
-        height: 190px;
-        width: 360px;
-    }
-
     .Projectboxthree {
         height: 175px;
         width: 350px;
     }
-
-    .Projectboxthree:hover {
-        height: 190px;
-        width: 360px;
+    .Projectboxfour {
+        height: 175px;
+        width: 350px;
     }
 }
 
@@ -494,25 +483,17 @@
         height: 140px;
         width: 280px;
     }
-    .Projectboxone:hover {
-        height: 150px;
-        width: 290px;
-    }
     .Projectboxtwo {
         height: 140px;
         width: 280px;
-    }
-    .Projectboxtwo:hover {
-        height: 150px;
-        width: 290px;
     }
     .Projectboxthree {
         height: 140px;
         width: 280px;
     }
-    .Projectboxthree:hover {
-        height: 150px;
-        width: 290px;
+    .Projectboxfour {
+        height: 140px;
+        width: 280px;
     }
     .Homecontactdiv {
         height: 400px;

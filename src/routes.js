@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import Teachio from './Components/Projects/Teachio/Teachio';
 import PearProgramming from './Components/Projects/PearProgramming/PearProgramming';
 import LongboardShop from './Components/Projects/LongboardShop/LongboardShop';
+import PiggyBank from './Components/Projects/PiggyBank/PiggyBank';
 
 export default(
     <Switch>
@@ -13,5 +14,6 @@ export default(
         <Route path='/Teachio' component={Teachio}/>
         <Route path='/PearProgramming' component={PearProgramming}/>
         <Route path='/odnt-longboards' component={LongboardShop}/>
+        <Route path='/PiggyBank' component={PiggyBank}/>
     </Switch>
 )
